@@ -16,7 +16,7 @@ class MapsController extends Controller
     {
       $config = array();
       $config['map_height'] = '550px';
-      $config['zoom'] = 'auto';
+      $config['zoom'] = '13';
       $config['draggableCursor'] = 'default';
       Map::initialize($config);
 
