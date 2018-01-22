@@ -14,3 +14,4 @@
   Route::get('/', 'MapsController@index');
   Route::get('/{map}', 'MapsController@show')->name('home');
 
+
