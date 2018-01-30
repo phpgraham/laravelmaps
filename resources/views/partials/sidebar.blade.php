@@ -9,4 +9,5 @@
     <a href="{{ route('home', ['map' => 'streetview']) }}" class="list-group-item list-group-item-action">Streetview</a>
     <a href="{{ route('home', ['map' => 'clustering']) }}" class="list-group-item list-group-item-action">Clustering</a>
     <a href="{{ route('home', ['map' => 'kml_layer']) }}" class="list-group-item list-group-item-action">KML Layer</a>
+    <a href="{{ route('home', ['map' => 'right_click']) }}" class="list-group-item list-group-item-action">Right Click Context Menu</a>
 </div>

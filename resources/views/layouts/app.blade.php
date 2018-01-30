@@ -12,6 +12,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style >
+        .contextmenu{
+          visibility:hidden;
+          background:#ffffff;
+          border:1px solid #8888FF;
+          z-index: 10;
+          position: relative;
+          width: 140px;
+        }
+        .contextmenu div{
+          padding-left: 5px
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid" id="app">

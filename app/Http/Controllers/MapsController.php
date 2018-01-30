@@ -160,4 +160,14 @@ class MapsController extends Controller
       Map::initialize($config);
     }
 
+    //context menu
+    public function right_click()
+    {
+      // set to false to remove from menu
+      $contextMenuItems['centerMap'] = true;
+      $contextMenuItems['addMarker'] = true;
+      //TODO build array for design features of menu
+      Map::add_context_menu($contextMenuItems);
+    }
+
 }

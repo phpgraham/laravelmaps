@@ -2,7 +2,11 @@
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+
+!/vendor/
+/vendor/*
+!/vendor/genealabs
+
 /.idea
 /.vagrant
 Homestead.json
